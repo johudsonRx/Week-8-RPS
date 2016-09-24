@@ -1,0 +1,120 @@
+html, body {
+	margin: 0
+	padding: 0;
+
+}
+
+h1 {
+	position: relative;
+
+}
+
+
+.container-fluid {
+    position: relative;
+    bottom: -5pc;
+    height: 771px;
+
+}
+.choiceBox{
+	border: 1px solid black;
+    width: 2pc;
+    position: relative;
+    width: 20pc;
+    height: 14pc;
+} 
+
+.chatBox {
+	border: 1px solid black;
+    position: relative;
+    bottom: -2pc;
+    width: 40pc;
+    height: 20pc;
+    left: 18pc;
+}
+
+.textBox {
+	position: relative;
+	width: 40pc;
+	border: 1px solid black;
+	bottom: -3pc;
+	height: 2pc;
+    left: 18pc;
+}
+
+#addEmployeeBtn {
+    position: relative;
+    left: 27pc;
+    bottom: 33px;
+}
+
+#playerChoice1 {
+    position: relative;
+    top: -52px;
+}
+
+
+#playerChoice2 {
+    position: relative;
+    top: -5pc;
+    left: 191px;
+}
+
+#result1 {
+    position: relative;
+    border: 1px solid;
+    width: 118px;
+    height: 51px;
+    bottom: -6pc;
+}
+
+#result2 {
+    position: relative;
+    border: 1px solid;
+    width: 118px;
+    height: 51px;
+    bottom: -45px;
+    left: 200px;
+}
+
+#wins {
+    font-size: 35px;
+    position: relative;
+    left: 6pc;
+    top: -52px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#wins2 {
+    font-size: 35px;
+    position: relative;
+    left: 6pc;
+    top: -53px;
+     margin-top: 37px;
+    margin-bottom: 0px;
+}
+
+
+#yea{
+        margin-top: 33px;
+}
+
+#no {
+    position: relative;
+    top: -2pc;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+
+
+#losses2 {
+    font-size: 35px;
+    position: relative;
+    left: 6pc;
+    bottom: 106px;
+}
+
+

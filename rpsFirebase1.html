@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <!--   <link rel="stylesheet" href="assets/css/reset.css"> -->
+
+   <link rel="stylesheet" type="text/css" href="firebase.css">
+
+<script src="https://www.gstatic.com/firebasejs/3.4.0/firebase.js"></script>
+
+  
+	<title>Rock, Paper, Scissors</title>
+</head>
+<body>
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  
+  <div class="row">
+   <div class="col-sm-4">
+     </div>
+   <div class="col-sm-4">
+  <h1> Rock, Paper, Scissors </h1>
+    </div>
+    <div class="col-sm-4">
+     </div>
+  </nav>
+
+ <div class="container-fluid">
+ 	<div class="row">
+    	<div class="col-sm-4">
+     	</div>
+    <div class="col-sm-4">
+     <form>
+					<div class="form-group">
+						<label for="">Name</label>
+						<input type="text" class="form-control" id="playerNameInput">
+
+						<button type="submit" class="btn btn-primary" id="addPlayer">Submit</button>
+					</div>
+
+
+   </form>
+   </div>
+   <div class="col-sm-4">
+    </div>
+  </div>
+
+<div class="row">
+
+ <div class="col-sm-4">
+<div class="choiceBox" id="player1">
+
+  </div>
+<h2 id="yea">Wins:</h2>
+<div id="wins">
+</div>
+<h2 id="no">Losses:</h2>
+<div id="losses">
+</div>
+ </div>
+ <div class="col-sm-4">
+<div class="choiceBox" id="result">
+ 
+
+<div id="result1">
+
+</div>
+<div id="result2">
+
+</div>
+
+ </div>
+</div>
+<div class="col-sm-4">
+<div class="choiceBox" id="player2">
+
+  </div>
+<h2 id="yea">Wins:</h2>
+<div id="wins2">
+</div>
+<h2 id="no">Losses:</h2>
+<div id="losses2">
+</div>
+
+</div>
+</div>
+
+<!-- <div class="chatBox">
+
+</div>
+
+<div class="textBox">
+
+</div>
+
+
+</div> -->
+
+
+
+<!-- Rock Paper Scissors my way -->
+<!-- Week 3 Day 2 -->
+
+<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+
+<script src="logic.js"></script>
+	
+</body>
+</html>
