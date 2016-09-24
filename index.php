@@ -1,1 +1,1 @@
-<?php include('rpsFirebase1.html'); ?>
+<?php include('index.html'); ?>
