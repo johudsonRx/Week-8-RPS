@@ -1,8 +1,9 @@
-html, body {
-	margin: 0
-	padding: 0;
 
+	
+#body {
+height: 910px;
 }
+
 
 h1 {
 	position: relative;
@@ -81,9 +82,11 @@ h1 {
     font-size: 35px;
     position: relative;
     left: 6pc;
-    top: -52px;
+    top: -42px;
     margin-top: 0px;
     margin-bottom: 0px;
+    width: 0px;
+    height: 0px;
 }
 
 
@@ -91,30 +94,88 @@ h1 {
     font-size: 35px;
     position: relative;
     left: 6pc;
-    top: -53px;
-     margin-top: 37px;
+    top: -42px;
+    margin-top: 0px;
     margin-bottom: 0px;
+    height: 0px;
+    width: 0px;
 }
 
 
 #yea{
-        margin-top: 33px;
+    margin-bottom: 0px;
+    width: 0px;
 }
 
 #no {
-    position: relative;
-    top: -2pc;
+        position: relative;
+    top: 0pc;
     margin-bottom: 0px;
     margin-top: 20px;
 }
 
-
+#losses {
+    height: 0px;
+    width: 0px;
+    font-size: 35px;
+    position: relative;
+    left: 132px;
+    bottom: 42px;
+}
 
 #losses2 {
     font-size: 35px;
     position: relative;
-    left: 6pc;
-    bottom: 106px;
+    left: 8pc;
+    bottom: 42px;
+    width: 0px;
+    height: 0px;
 }
 
 
+#notification {
+    height: 0px;
+    width: 336px;
+    border-bottom-width: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 27px;
+    bottom: -5pc;
+    left: 2pc;
+}
+
+#rounds{
+    font-size: 35px;
+    height: 0px;
+    width: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    bottom: -12px;
+}
+
+#ties {
+    font-size: 35px;
+     height: 0px;
+    width: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    bottom: -62px;
+}
+
+#roundsNumber {
+    position: relative;
+    left: 10pc;
+    font-size: 35px;
+    top: 7px;
+    height: 0px;
+    width: 0px;
+}
+
+#tiesNumber {
+     position: relative;
+    font-size: 35px;
+    left: 6pc;
+    bottom: -56px;
+    height: 0px;
+    width: 0px;
+}
